@@ -13,3 +13,10 @@ Experiment taken from McElreath, R. 2020. Statistical Rethinking: A Bayesian Cou
 Use indicator or index variables to model the influence of these features on the scores. Omit the individual judge and wine index variables from Problem 1. Do not include interaction effects yet.Again justify your priors. What do you conclude about the differences among the wines and judges? Try to relate the results to the inferences in the previous problem.
 
 8H7. Now consider two-way interactions among the three features. You should end up with three different interaction terms in your model. These will be easier to build, if you use indicator variables. Again justify your priors. Explain what each interaction means. Be sure to interpret the model’s predictions on the outcome scale (mu, the expected score), not on the scale of individual parameters. You can use link to help with this, or just use your knowledge of the linear model instead. What do you conclude about the features and the scores? Can you relate the results of your model(s) to the individual judge and wine inferences from 8H5?
+
+## To do
+
+1. Add/fill requirements.txt
+2. Augment Dataset with Synthetic Info (reviews, label description, wine name, etc).
+3. Transform NL data to numeric with embedding model (tiktoken)
+4. Add to DAG and justify choices
